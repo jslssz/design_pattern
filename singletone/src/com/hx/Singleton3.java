@@ -14,7 +14,7 @@ public class Singleton3 {
 	}
 	
 	//这样性能不好，消耗资源
-	public  static synchronized Singleton3 getInstance(){
+	public  static  Singleton3 getInstance(){
 		//此处会出问题，方法上加一个同步锁
 		if (instance ==null){
 			synchronized (Singleton3.class){
