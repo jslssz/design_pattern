@@ -8,12 +8,7 @@ import java.util.concurrent.*;
  */
 public class Test {
 	public static void main(String[] args) throws Exception{
-		Callable<Singleton> callable =new Callable<Singleton>() {
-			@Override
-			public Singleton call() throws Exception {
-				return Singleton.getInstance();
-			}
-		};
+		Callable<Singleton> callable = Singleton::getInstance;
 		
 		ExecutorService service = Executors.newFixedThreadPool(2);
 		Future<Singleton> future1 = service.submit(callable);
