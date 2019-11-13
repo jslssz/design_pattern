@@ -9,7 +9,7 @@ import com.hx.typeofdecorator.Sugar;
  * @author jxlgcmh
  * @create 2019-05-23 15:04
  */
-public class Test {
+public class Client {
 	public static void main(String[] args) {
 //		MochaCoffee mochaCoffee=new MochaCoffee();
 //		double cost = mochaCoffee.cost();

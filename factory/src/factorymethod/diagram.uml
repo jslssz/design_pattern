@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="182.00000000000003" y="112.0">factorymethod.LoggerFactory</node>
+    <node x="33.0" y="112.0">factorymethod.FileLogger</node>
+    <node x="287.30555555555554" y="0.0">factorymethod.Logger</node>
+    <node x="0.0" y="214.0">factorymethod.FileLoggerFactory</node>
+    <node x="196.65277777777783" y="316.0">factorymethod.Client</node>
+    <node x="376.00000000000006" y="112.0">factorymethod.DatabaseLogger</node>
+    <node x="348.00000000000006" y="214.0">factorymethod.DatabaseLoggerFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factorymethod.DatabaseLogger" target="factorymethod.Logger">
+      <point x="0.0" y="-26.0" />
+      <point x="454.00000000000006" y="92.0" />
+      <point x="362.55555555555554" y="92.0" />
+      <point x="10.75" y="26.0" />
+    </edge>
+    <edge source="factorymethod.LoggerFactory" target="factorymethod.Logger">
+      <point x="0.0" y="-26.0" />
+      <point x="269.0" y="92.0" />
+      <point x="341.05555555555554" y="92.0" />
+      <point x="-10.75" y="26.0" />
+    </edge>
+    <edge source="factorymethod.DatabaseLoggerFactory" target="factorymethod.DatabaseLogger">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="factorymethod.FileLoggerFactory" target="factorymethod.FileLogger">
+      <point x="0.0" y="-26.0" />
+      <point x="90.0" y="189.0" />
+      <point x="97.5" y="189.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="factorymethod.Client" target="factorymethod.Logger">
+      <point x="49.666666666666686" y="-26.0" />
+      <point x="320.8194444444445" y="291.0" />
+      <point x="570.5" y="291.0" />
+      <point x="570.5" y="72.0" />
+      <point x="405.55555555555554" y="72.0" />
+      <point x="53.75" y="26.0" />
+    </edge>
+    <edge source="factorymethod.Client" target="factorymethod.FileLoggerFactory">
+      <point x="-49.66666666666666" y="-26.0" />
+      <point x="221.48611111111117" y="291.0" />
+      <point x="90.0" y="291.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="factorymethod.FileLogger" target="factorymethod.Logger">
+      <point x="0.0" y="-26.0" />
+      <point x="97.5" y="82.0" />
+      <point x="319.55555555555554" y="82.0" />
+      <point x="-32.25" y="26.0" />
+    </edge>
+    <edge source="factorymethod.FileLoggerFactory" target="factorymethod.LoggerFactory">
+      <point x="60.0" y="-26.0" />
+      <point x="150.0" y="189.0" />
+      <point x="211.00000000000003" y="189.0" />
+      <point x="-58.0" y="26.0" />
+    </edge>
+    <edge source="factorymethod.Client" target="factorymethod.LoggerFactory">
+      <point x="0.0" y="-26.0" />
+      <point x="271.1527777777778" y="291.0" />
+      <point x="269.0" y="291.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="factorymethod.FileLoggerFactory" target="factorymethod.Logger">
+      <point x="-60.0" y="-26.0" />
+      <point x="30.0" y="189.0" />
+      <point x="22.5" y="189.0" />
+      <point x="22.5" y="72.0" />
+      <point x="298.05555555555554" y="72.0" />
+      <point x="-53.75" y="26.0" />
+    </edge>
+    <edge source="factorymethod.DatabaseLoggerFactory" target="factorymethod.Logger">
+      <point x="70.6666666666667" y="-26.0" />
+      <point x="524.6666666666667" y="189.0" />
+      <point x="551.0" y="189.0" />
+      <point x="551.0" y="82.0" />
+      <point x="384.05555555555554" y="82.0" />
+      <point x="32.25" y="26.0" />
+    </edge>
+    <edge source="factorymethod.DatabaseLoggerFactory" target="factorymethod.LoggerFactory">
+      <point x="-70.66666666666669" y="-26.0" />
+      <point x="383.33333333333337" y="189.0" />
+      <point x="327.0" y="189.0" />
+      <point x="58.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="241.5" y="196.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

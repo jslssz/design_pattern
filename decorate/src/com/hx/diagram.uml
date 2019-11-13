@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="223.875" y="0.0">com.hx.Drink</node>
+    <node x="77.5" y="173.0">com.hx.Coffee</node>
+    <node x="443.0" y="323.0">com.hx.typeofdecorator.Chocolate</node>
+    <node x="367.0" y="149.0">com.hx.Decorator</node>
+    <node x="0.0" y="420.0">com.hx.Client</node>
+    <node x="152.0" y="323.0">com.hx.typeofcoffee.LatteCoffee</node>
+    <node x="0.0" y="323.0">com.hx.typeofcoffee.MochaCoffee</node>
+    <node x="304.0" y="323.0">com.hx.typeofdecorator.Sugar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hx.typeofdecorator.Sugar" target="com.hx.Decorator">
+      <point x="0.0" y="-26.0" />
+      <point x="363.5" y="298.0" />
+      <point x="403.0" y="298.0" />
+      <point x="-36.0" y="62.0" />
+    </edge>
+    <edge source="com.hx.typeofcoffee.MochaCoffee" target="com.hx.Coffee">
+      <point x="0.0" y="-26.0" />
+      <point x="66.0" y="298.0" />
+      <point x="109.75" y="298.0" />
+      <point x="-32.25" y="38.0" />
+    </edge>
+    <edge source="com.hx.Coffee" target="com.hx.Drink">
+      <point x="0.0" y="-38.0" />
+      <point x="142.0" y="124.0" />
+      <point x="256.125" y="124.0" />
+      <point x="-32.25" y="49.5" />
+    </edge>
+    <edge source="com.hx.typeofdecorator.Chocolate" target="com.hx.Decorator">
+      <point x="0.0" y="-26.0" />
+      <point x="514.5" y="298.0" />
+      <point x="475.0" y="298.0" />
+      <point x="36.0" y="62.0" />
+    </edge>
+    <edge source="com.hx.Decorator" target="com.hx.Drink">
+      <point x="0.0" y="-62.0" />
+      <point x="439.0" y="124.0" />
+      <point x="320.625" y="124.0" />
+      <point x="32.25" y="49.5" />
+    </edge>
+    <edge source="com.hx.typeofcoffee.LatteCoffee" target="com.hx.Coffee">
+      <point x="0.0" y="-26.0" />
+      <point x="218.0" y="298.0" />
+      <point x="174.25" y="298.0" />
+      <point x="32.25" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="267.5" y="218.0" />
+  <SelectedNodes>
+    <node>com.hx.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
