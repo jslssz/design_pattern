@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="87.0">com.hx.bridge.WindowsImpl</node>
+    <node x="545.0" y="164.0">com.hx.bridge.GifImage</node>
+    <node x="152.0" y="87.0">com.hx.bridge.LinuxImpl</node>
+    <node x="272.37820512820514" y="241.0">com.hx.bridge.Client</node>
+    <node x="362.35897435897436" y="0.0">com.hx.bridge.ImageImpl</node>
+    <node x="417.0" y="164.0">com.hx.bridge.PngImage</node>
+    <node x="490.35897435897436" y="87.0">com.hx.bridge.Image</node>
+    <node x="289.0" y="164.0">com.hx.bridge.JpgImage</node>
+    <node x="380.35897435897436" y="83.0">com.hx.bridge.UnixImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hx.bridge.UnixImpl" target="com.hx.bridge.ImageImpl">
+      <point x="-2.8421709430404007E-14" y="-13.5" />
+      <point x="648.3589743589744" y="47.0" />
+      <point x="468.6923076923077" y="47.0" />
+      <point x="48.333333333333314" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.Client" target="com.hx.bridge.Image">
+      <point x="34.5" y="-13.5" />
+      <point x="352.87820512820514" y="221.0" />
+      <point x="663.5" y="221.0" />
+      <point x="663.5" y="134.0" />
+      <point x="563.8589743589744" y="134.0" />
+      <point x="31.5" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.Client" target="com.hx.bridge.ImageImpl">
+      <point x="-11.5" y="-13.5" />
+      <point x="306.87820512820514" y="211.0" />
+      <point x="278.5" y="211.0" />
+      <point x="278.5" y="67.0" />
+      <point x="410.6923076923077" y="67.0" />
+      <point x="-9.666666666666686" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.LinuxImpl" target="com.hx.bridge.ImageImpl">
+      <point x="0.0" y="-13.5" />
+      <point x="210.0" y="57.0" />
+      <point x="391.35897435897436" y="57.0" />
+      <point x="-29.0" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.GifImage" target="com.hx.bridge.Image">
+      <point x="0.0" y="-13.5" />
+      <point x="599.0" y="144.0" />
+      <point x="542.8589743589744" y="144.0" />
+      <point x="10.5" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.PngImage" target="com.hx.bridge.Image">
+      <point x="0.0" y="-13.5" />
+      <point x="471.0" y="144.0" />
+      <point x="521.8589743589744" y="144.0" />
+      <point x="-10.5" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.JpgImage" target="com.hx.bridge.Image">
+      <point x="0.0" y="-13.5" />
+      <point x="343.0" y="134.0" />
+      <point x="500.85897435897436" y="134.0" />
+      <point x="-31.5" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.WindowsImpl" target="com.hx.bridge.ImageImpl">
+      <point x="0.0" y="-13.5" />
+      <point x="66.0" y="47.0" />
+      <point x="372.02564102564105" y="47.0" />
+      <point x="-48.333333333333314" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.Client" target="com.hx.bridge.JpgImage">
+      <point x="11.5" y="-13.5" />
+      <point x="329.87820512820514" y="221.0" />
+      <point x="343.0" y="221.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.Image" target="com.hx.bridge.ImageImpl">
+      <point x="21.0" y="-13.5" />
+      <point x="553.3589743589744" y="57.0" />
+      <point x="449.35897435897436" y="57.0" />
+      <point x="29.0" y="13.5" />
+    </edge>
+    <edge source="com.hx.bridge.Client" target="com.hx.bridge.WindowsImpl">
+      <point x="-34.5" y="-13.5" />
+      <point x="283.87820512820514" y="221.0" />
+      <point x="66.0" y="221.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="348.46153846153834" y="217.0" />
+  <SelectedNodes>
+    <node>com.hx.bridge.UnixImpl</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
